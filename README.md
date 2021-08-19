@@ -1,3 +1,3 @@
 # Gamification
 
-A simple React app without context manager
+A simple React app without state manager
