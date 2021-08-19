@@ -1,0 +1,33 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    overflow-y: hidden;
+
+    .form-group {
+      width: 20rem;
+    }
+  }
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 3rem;
+
+  &__wrapper {
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+  }
+}

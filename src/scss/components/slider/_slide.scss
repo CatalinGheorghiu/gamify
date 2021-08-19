@@ -1,0 +1,15 @@
+@import '../../variables';
+.slide {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: $color-white;
+
+  img {
+    height: 100vh;
+
+    @media screen and (min-width: 1600px) {
+      margin-left: 5rem;
+    }
+  }
+}

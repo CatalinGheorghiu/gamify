@@ -1,0 +1,28 @@
+.empty-placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+  align-items: space-between;
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+  }
+  &__not-available {
+    width: 100%;
+    height: 100%;
+  }
+
+  &__image {
+    width: 30rem;
+  }
+
+  &__message {
+    margin: 3rem 0;
+    font-size: 2rem;
+  }
+}

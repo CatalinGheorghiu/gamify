@@ -1,0 +1,25 @@
+@import '../variables';
+
+.card {
+  display: flex;
+
+  &__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 1.5rem;
+  }
+
+  &__name {
+    font-weight: 700;
+    line-height: 1.9rem;
+    font-size: 1.6rem;
+  }
+
+  &__job {
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    color: $color-grey-medium;
+  }
+}
